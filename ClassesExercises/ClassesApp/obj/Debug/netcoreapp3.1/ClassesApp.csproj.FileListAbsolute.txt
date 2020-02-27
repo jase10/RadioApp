@@ -1,0 +1,16 @@
+C:\Users\CLF\Documents\CLF\CSharpJan2020Materials\Exercises\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\ClassesApp.deps.json
+C:\Users\CLF\Documents\CLF\CSharpJan2020Materials\Exercises\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\ClassesApp.dll
+C:\Users\CLF\Documents\CLF\CSharpJan2020Materials\Exercises\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\ClassesApp.pdb
+C:\Users\CLF\Documents\CLF\CSharpJan2020Materials\Exercises\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.csprojAssemblyReference.cache
+C:\Users\CLF\Documents\CLF\CSharpJan2020Materials\Exercises\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.AssemblyInfoInputs.cache
+C:\Users\CLF\Documents\CLF\CSharpJan2020Materials\Exercises\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.AssemblyInfo.cs
+C:\Users\CLF\Documents\CLF\CSharpJan2020Materials\Exercises\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.dll
+C:\Users\CLF\Documents\CLF\CSharpJan2020Materials\Exercises\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.pdb
+C:\Users\TECH-W96birm\Documents\ExercisesBasics\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\ClassesApp.deps.json
+C:\Users\TECH-W96birm\Documents\ExercisesBasics\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\ClassesApp.dll
+C:\Users\TECH-W96birm\Documents\ExercisesBasics\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\ClassesApp.pdb
+C:\Users\TECH-W96birm\Documents\ExercisesBasics\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.csprojAssemblyReference.cache
+C:\Users\TECH-W96birm\Documents\ExercisesBasics\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.AssemblyInfoInputs.cache
+C:\Users\TECH-W96birm\Documents\ExercisesBasics\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.AssemblyInfo.cs
+C:\Users\TECH-W96birm\Documents\ExercisesBasics\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.dll
+C:\Users\TECH-W96birm\Documents\ExercisesBasics\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.pdb
