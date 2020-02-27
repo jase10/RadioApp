@@ -46,7 +46,7 @@ namespace WpfApp1
 
         private void channel_1(object sender, RoutedEventArgs e)
         {
-            r.Channel = 1; ;
+            r.Channel = 1; 
             RadioOff.Text = $"{r.Play()}";
         }
 
@@ -54,6 +54,8 @@ namespace WpfApp1
         {
             r.Channel = 2;
             RadioOff.Text = $"{r.Play()}";
+
+      
         }
 
         private void channel_3(object sender, RoutedEventArgs e)
