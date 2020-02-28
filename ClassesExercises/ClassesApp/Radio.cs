@@ -6,7 +6,7 @@ namespace ClassesApp
     {
         private int _channel = 1;
         private bool _on = false;
-        private int _volume; 
+        private int _volume = 0; 
 
         public int Channel
         {
@@ -26,10 +26,10 @@ namespace ClassesApp
             }
         }
 
-        public int volume 
+        public int Volume 
         {
-            get { return volume;  }
-            set { if (value >= 0 && value <= 30) 
+            get { return _volume;  }
+            set { if (value >= 0 && value <= 30 && _on == true) 
                 { 
                     _volume = value; 
                 }
@@ -67,11 +67,10 @@ namespace ClassesApp
             {
             _on = false;
 
-            } 
+            }
+
+      
 
 
-
-    }
-    // implement a class Radio that corresponds to the Class diagram 
-    //   and specification in the INSTRUCTIONS document in this solution   
+    }  
 }

@@ -38,7 +38,7 @@ namespace ClassesTests
             // act
             var message = _radio.Play();
             // assert
-            Assert.AreEqual("Radio is off", message);        
+            Assert.AreEqual("Radio is off", message);
         }
 
         [Test]
@@ -46,6 +46,25 @@ namespace ClassesTests
         {
             _radio.TurnOn();
             Assert.AreEqual("Playing channel 1", _radio.Play());
+        }
+
+        [TestCase(0)]
+        [TestCase(30)]
+        [TestCase(-15)]
+        public void VolumeTest(int newVolume)
+        {
+            _radio.Volume = newVolume;
+            Assert.AreEqual(0, _radio.Volume);
+
+        }
+
+        [TestCase(-15)]
+        [TestCase(35)]
+        public void InvalidVolumeTestWhenOff(int newVolume)
+        {
+            _radio.Volume = 0;
+            _radio.Volume = newVolume;
+            Assert.AreEqual(0, _radio.Volume);
         }
     }
 }
