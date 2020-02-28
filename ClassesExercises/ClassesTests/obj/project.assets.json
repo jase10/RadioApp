@@ -1367,7 +1367,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -3805,7 +3805,7 @@
       ]
     },
     "System.Runtime.Serialization.Primitives/4.1.1": {
-      "sha512": "+mqQrrJsDx5yxIq+wLYKHr6pVc08ETOzJFwE3QvWmEwM4CU5RNKGdqu47bk+HGScaT58ZCVFmjwpp0OBUxy1QA==",
+      "sha512": "HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg==",
       "type": "package",
       "path": "system.runtime.serialization.primitives/4.1.1",
       "files": [
@@ -4594,24 +4594,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TECH-W96birm\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Jasey\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\ClassesTests\\ClassesTests.csproj",
+      "projectUniqueName": "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\ClassesTests\\ClassesTests.csproj",
       "projectName": "ClassesTests",
-      "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\ClassesTests\\ClassesTests.csproj",
-      "packagesPath": "C:\\Users\\TECH-W96birm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\ClassesTests\\obj\\",
+      "projectPath": "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\ClassesTests\\ClassesTests.csproj",
+      "packagesPath": "C:\\Users\\Jasey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\ClassesTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\TECH-W96birm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Jasey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -4623,8 +4624,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj": {
-              "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj"
+            "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj": {
+              "projectPath": "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj"
             }
           }
         }

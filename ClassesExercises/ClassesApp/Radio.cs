@@ -56,7 +56,6 @@ namespace ClassesApp
             {
                 return $"Playing channel {channelNumber}";
             }
-            
             else 
             {
                 return "Radio is off";

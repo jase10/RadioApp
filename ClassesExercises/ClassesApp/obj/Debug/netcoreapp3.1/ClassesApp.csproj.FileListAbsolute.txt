@@ -22,3 +22,11 @@ C:\Users\TECH-W96birm\Documents\RadioApp\ClassesExercises\ClassesApp\obj\Debug\n
 C:\Users\TECH-W96birm\Documents\RadioApp\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.AssemblyInfo.cs
 C:\Users\TECH-W96birm\Documents\RadioApp\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.dll
 C:\Users\TECH-W96birm\Documents\RadioApp\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.pdb
+C:\Users\Jasey\Documents\RadioApp\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\ClassesApp.deps.json
+C:\Users\Jasey\Documents\RadioApp\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\ClassesApp.dll
+C:\Users\Jasey\Documents\RadioApp\ClassesExercises\ClassesApp\bin\Debug\netcoreapp3.1\ClassesApp.pdb
+C:\Users\Jasey\Documents\RadioApp\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.csprojAssemblyReference.cache
+C:\Users\Jasey\Documents\RadioApp\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.AssemblyInfoInputs.cache
+C:\Users\Jasey\Documents\RadioApp\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.AssemblyInfo.cs
+C:\Users\Jasey\Documents\RadioApp\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.dll
+C:\Users\Jasey\Documents\RadioApp\ClassesExercises\ClassesApp\obj\Debug\netcoreapp3.1\ClassesApp.pdb

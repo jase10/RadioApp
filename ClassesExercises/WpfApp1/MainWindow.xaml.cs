@@ -39,7 +39,7 @@ namespace WpfApp1
         private void onButton(object sender, RoutedEventArgs e)
         {
             r.TurnOn();
-            RadioOff.Text = "Radio on";
+            RadioOff.Text = $"{r.Play()}";
         }
 
         
@@ -71,7 +71,7 @@ namespace WpfApp1
         }
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            r.Write();
+           
         }
 
 
