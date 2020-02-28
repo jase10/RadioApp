@@ -69,10 +69,13 @@ namespace WpfApp1
             r.Channel = 4;
             RadioOff.Text = $"{r.Play()}";
         }
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            r.Write();
+        }
 
-        
 
-       
+
 
     }
 }
