@@ -74,8 +74,14 @@ namespace WpfApp1
            
         }
 
+        private void Volume_Up(object sender, RoutedEventArgs e)
+        {
 
+        }
 
+        private void Volume_down(object sender, RoutedEventArgs e)
+        {
 
+        }
     }
 }
