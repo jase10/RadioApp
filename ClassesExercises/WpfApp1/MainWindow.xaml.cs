@@ -70,6 +70,8 @@ namespace WpfApp1
             RadioOff.Text = $"{r.Play()}";
         }
 
+        
+
        
 
     }
