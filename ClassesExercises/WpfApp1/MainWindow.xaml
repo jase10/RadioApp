@@ -21,8 +21,9 @@
         <Button Content="Channel 2" HorizontalAlignment="Left" Margin="53,235,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_2" Grid.Column="3"/>
         <Button Content="Channel 3" HorizontalAlignment="Left" Margin="0,290,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_3" Grid.Column="1" Grid.ColumnSpan="3"/>
         <Button Content="Channel 4" HorizontalAlignment="Left" Margin="53,290,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_4" Grid.Column="3"/>
-        <Button Content="Volume Down" Grid.Column="3" HorizontalAlignment="Left" Margin="53,350,0,0" VerticalAlignment="Top" Height="36" Width="84" Click="Button_Click_1"/>
-        <Button Content="Volume Up" Grid.Column="1" HorizontalAlignment="Left" Margin="2,350,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="36" Width="80" Click="Button_Click"/>
+        <Button Content="Volume Down" Grid.Column="3" HorizontalAlignment="Left" Margin="53,350,0,0" VerticalAlignment="Top" Height="36" Width="84" Click="Volume_down"/>
+        <Button Content="Volume Up" Grid.Column="1" HorizontalAlignment="Left" Margin="2,350,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="36" Width="80" Click="Volume_Up"/>
+        <TextBox x:Name="Volume" Grid.Column="3" HorizontalAlignment="Left" Margin="168,354,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" Height="28"/>
 
 
 

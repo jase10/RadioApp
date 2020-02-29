@@ -69,8 +69,12 @@ namespace ClassesApp
 
             }
 
-      
+        public int volumeControl() 
+        {
+            return _volume;
+        }
 
 
-    }  
+
+    }
 }

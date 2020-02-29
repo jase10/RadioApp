@@ -76,12 +76,17 @@ namespace WpfApp1
 
         private void Volume_Up(object sender, RoutedEventArgs e)
         {
+            r.volumeControl();
+            Volume.Text = $"{r.Volume++}";
+
+
 
         }
 
         private void Volume_down(object sender, RoutedEventArgs e)
         {
-
+            r.volumeControl();
+            Volume.Text = $"{r.Volume--}";
         }
     }
 }
