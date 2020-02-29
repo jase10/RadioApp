@@ -26,6 +26,7 @@ namespace WpfApp1
         {
             InitializeComponent();
             r = new Radio();
+            r.Read();
         }
 
         private void offButton(object sender, RoutedEventArgs e)
@@ -82,7 +83,7 @@ namespace WpfApp1
         private void Volume_Up(object sender, RoutedEventArgs e)
         {
 
-            r.Volume += 1; 
+           r.Volume += 1;
             Volume.Text = $"{r.Volume}";
 
             
@@ -94,17 +95,22 @@ namespace WpfApp1
 
         private void Volume_down(object sender, RoutedEventArgs e)
         {
+
+            r.Volume -= 1;
+            Volume.Text = $"{r.Volume}";
+
           
         }
 
-        private void Window_Activated(object sender, EventArgs e)
-        {
-            r.Read();
-        }
-
+        
         private void Volume_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            r.Read();
         }
     }
 }

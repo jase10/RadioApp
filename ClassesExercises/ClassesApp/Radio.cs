@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace ClassesApp
@@ -9,7 +10,7 @@ namespace ClassesApp
         private int _channel = 1;
         private bool _on = false;
         private int _volume = 0;
-        string path = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\status.txt";
+        string path = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\status.txt";
 
 
        
@@ -46,14 +47,13 @@ namespace ClassesApp
         {
             _on = true;
             
+            
         }
 
        
 
         public string Play()
         {
-            
-           
            
             int channelNumber = _channel;
             
@@ -86,21 +86,23 @@ namespace ClassesApp
         {
             _channel = Channel;
             _volume = Volume;
-            
-            
-
-
             string output = JsonConvert.SerializeObject(this);
             File.WriteAllText(path, output);
         }
 
         public void Read()
         {
-            string jsonfile = File.ReadAllText(path);
-            var info = JsonConvert.DeserializeObject<Radio>(jsonfile);
             
+  
+            using (StreamReader r = new StreamReader(@"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\status.txt"))
+            {
+                var json = r.ReadToEnd();
+                var info = JsonConvert.DeserializeObject<Radio>(json);
+                
+            }
 
-            
+
+
         }
 
 
