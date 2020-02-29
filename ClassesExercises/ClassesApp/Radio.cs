@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
+using System.IO;
 
 namespace ClassesApp
 {
@@ -6,7 +8,8 @@ namespace ClassesApp
     {
         private int _channel = 1;
         private bool _on = false;
-        private int _volume = 0; 
+        private int _volume = 0;
+        string path = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\status.txt";
 
         public int Channel
         {
@@ -71,9 +74,29 @@ namespace ClassesApp
 
         public int volumeControl() 
         {
+            
             return _volume;
         }
 
+        public void Write() 
+        {
+            _channel = Channel;
+            _volume = Volume;
+            
+
+
+            string output = JsonConvert.SerializeObject(this);
+            File.WriteAllText(path, output);
+        }
+
+        public void Read()
+        {
+            string jsonfile = File.ReadAllText(path);
+            Radio info = JsonConvert.DeserializeObject<Radio>(jsonfile);
+            Channel = info.Channel;
+            Volume = info.Volume;
+            
+        }
 
 
     }
