@@ -76,8 +76,9 @@ namespace WpfApp1
 
         private void Volume_Up(object sender, RoutedEventArgs e)
         {
-            r.volumeControl();
-            Volume.Text = $"{r.Volume++}";
+           int vu = r.volumeControl();
+            int volumeUp = vu++;
+            Volume.Text = $"{volumeUp}";
 
 
 
@@ -85,8 +86,9 @@ namespace WpfApp1
 
         private void Volume_down(object sender, RoutedEventArgs e)
         {
-            r.volumeControl();
-            Volume.Text = $"{r.Volume--}";
+            int vd = r.volumeControl();
+            int volumeDown = vd--;
+            Volume.Text = $"{volumeDown--}";
         }
     }
 }
