@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800"
+        Closing="Window_Closing"
+        Activated="Window_Activated">
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10*"/>
@@ -23,7 +26,7 @@
         <Button Content="Channel 4" HorizontalAlignment="Left" Margin="53,290,0,0" VerticalAlignment="Top" Height="40" Width="84" Click="channel_4" Grid.Column="3"/>
         <Button Content="Volume Down" Grid.Column="3" HorizontalAlignment="Left" Margin="53,350,0,0" VerticalAlignment="Top" Height="36" Width="84" Click="Volume_down"/>
         <Button Content="Volume Up" Grid.Column="1" HorizontalAlignment="Left" Margin="2,350,0,0" VerticalAlignment="Top" Grid.ColumnSpan="3" Height="36" Width="80" Click="Volume_Up"/>
-        <TextBox x:Name="Volume" Grid.Column="3" HorizontalAlignment="Left" Margin="168,354,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" Height="28"/>
+        <TextBox x:Name="Volume" Grid.Column="3" HorizontalAlignment="Left" Margin="168,354,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" Height="28" TextChanged="Volume_TextChanged"/>
 
 
 

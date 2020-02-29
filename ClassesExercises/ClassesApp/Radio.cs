@@ -11,6 +11,8 @@ namespace ClassesApp
         private int _volume = 0;
         string path = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\status.txt";
 
+
+       
         public int Channel
         {
             get
@@ -52,10 +54,10 @@ namespace ClassesApp
         {
             
            
-            bool isOn = _on;
+           
             int channelNumber = _channel;
             
-            if (isOn == true)
+            if (_on == true)
             {
                 return $"Playing channel {channelNumber}";
             }
@@ -74,14 +76,17 @@ namespace ClassesApp
 
         public int volumeControl() 
         {
-            
+
             return _volume;
+            
+
         }
 
         public void Write() 
         {
             _channel = Channel;
             _volume = Volume;
+            
             
 
 
@@ -92,9 +97,9 @@ namespace ClassesApp
         public void Read()
         {
             string jsonfile = File.ReadAllText(path);
-            Radio info = JsonConvert.DeserializeObject<Radio>(jsonfile);
-            Channel = info.Channel;
-            Volume = info.Volume;
+            var info = JsonConvert.DeserializeObject<Radio>(jsonfile);
+            
+
             
         }
 

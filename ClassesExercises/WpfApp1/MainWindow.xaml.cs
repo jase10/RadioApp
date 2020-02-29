@@ -20,17 +20,17 @@ namespace WpfApp1
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {   
+    {
         Radio r;
         public MainWindow()
         {
             InitializeComponent();
             r = new Radio();
         }
-        
+
         private void offButton(object sender, RoutedEventArgs e)
         {
-          
+
             r.TurnOff();
             RadioOff.Text = "Radio off";
 
@@ -42,11 +42,11 @@ namespace WpfApp1
             RadioOff.Text = $"{r.Play()}";
         }
 
-        
+
 
         private void channel_1(object sender, RoutedEventArgs e)
         {
-            r.Channel = 1; 
+            r.Channel = 1;
             RadioOff.Text = $"{r.Play()}";
         }
 
@@ -55,7 +55,7 @@ namespace WpfApp1
             r.Channel = 2;
             RadioOff.Text = $"{r.Play()}";
 
-      
+
         }
 
         private void channel_3(object sender, RoutedEventArgs e)
@@ -71,13 +71,22 @@ namespace WpfApp1
         }
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-           
+            r.Write();
+             
         }
+
+        
+
+       
 
         private void Volume_Up(object sender, RoutedEventArgs e)
         {
 
-            Volume.Text = $"{Volume}";
+            r.Volume += 1; 
+            Volume.Text = $"{r.Volume}";
+
+            
+
 
 
 
@@ -85,7 +94,17 @@ namespace WpfApp1
 
         private void Volume_down(object sender, RoutedEventArgs e)
         {
-            Volume.Text = $"{Volume}";
+          
+        }
+
+        private void Window_Activated(object sender, EventArgs e)
+        {
+            r.Read();
+        }
+
+        private void Volume_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
