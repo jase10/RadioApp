@@ -40,7 +40,9 @@ namespace WpfApp1
         private void onButton(object sender, RoutedEventArgs e)
         {
             r.TurnOn();
+            r.Read();
             RadioOff.Text = $"{r.Play()}";
+            Volume.Text = $"{r.Volume}";
         }
 
 
@@ -85,12 +87,6 @@ namespace WpfApp1
 
            r.Volume += 1;
             Volume.Text = $"{r.Volume}";
-
-            
-
-
-
-
         }
 
         private void Volume_down(object sender, RoutedEventArgs e)
@@ -98,19 +94,8 @@ namespace WpfApp1
 
             r.Volume -= 1;
             Volume.Text = $"{r.Volume}";
-
-          
         }
 
         
-        private void Volume_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        void MainWindow_Loaded(object sender, RoutedEventArgs e)
-        {
-            r.Read();
-        }
     }
 }

@@ -10,10 +10,38 @@ namespace ClassesApp
         private int _channel = 1;
         private bool _on = false;
         private int _volume = 0;
-        string path = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\status.txt";
+        string path = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\status.json";
+
+      
+       public int ReadChannel 
+        {
+            get
+            {
+                return _channel;
+            }
+
+            set
+            {
+                if (value <= 4 && value > 0)
+                {
+                    _channel = value;
+                }
 
 
-       
+            }
+        }
+
+        public int readVolume
+        {
+            get { return _volume; }
+            set
+            {
+                if (value >= 0 && value <= 30)
+                {
+                    _volume = value;
+                }
+            }
+        }
         public int Channel
         {
             get
@@ -46,7 +74,7 @@ namespace ClassesApp
         public void TurnOn()
         {
             _on = true;
-            
+          
             
         }
 
@@ -56,7 +84,7 @@ namespace ClassesApp
         {
            
             int channelNumber = _channel;
-            
+           
             if (_on == true)
             {
                 return $"Playing channel {channelNumber}";
@@ -74,16 +102,11 @@ namespace ClassesApp
 
             }
 
-        public int volumeControl() 
-        {
-
-            return _volume;
-            
-
-        }
+        
 
         public void Write() 
         {
+           
             _channel = Channel;
             _volume = Volume;
             string output = JsonConvert.SerializeObject(this);
@@ -93,16 +116,13 @@ namespace ClassesApp
         public void Read()
         {
             
-  
-            using (StreamReader r = new StreamReader(@"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\status.txt"))
-            {
-                var json = r.ReadToEnd();
-                var info = JsonConvert.DeserializeObject<Radio>(json);
-                
-            }
 
-
-
+            string rfile = File.ReadAllText(path);
+            Radio r = JsonConvert.DeserializeObject<Radio>(rfile);
+            Channel = r.ReadChannel;
+            Volume = r.readVolume;
+            
+            
         }
 
 
