@@ -74,10 +74,7 @@ namespace ClassesTests
             Assert.AreEqual(10,_radio.Volume);
         }
 
-        public void WritingToJsonFileTest() 
-        {
 
-        }
 
     }
 }
