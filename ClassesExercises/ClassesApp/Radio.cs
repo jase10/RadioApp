@@ -12,8 +12,12 @@ namespace ClassesApp
         private int _volume = 0;
         string path = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\status.json";
 
-      
-       public int ReadChannel 
+      public bool On 
+        {
+            get { return _on; }
+            set { _on = value; }
+        }
+       public int readChannel 
         {
             get
             {
@@ -119,7 +123,7 @@ namespace ClassesApp
 
             string rfile = File.ReadAllText(path);
             Radio r = JsonConvert.DeserializeObject<Radio>(rfile);
-            Channel = r.ReadChannel;
+            Channel = r.readChannel;
             Volume = r.readVolume;
             
             

@@ -33,7 +33,10 @@ namespace WpfApp1
         {
 
             r.TurnOff();
+            r.Write();
             RadioOff.Text = "Radio off";
+            Volume.Text = "Off";
+            mediaElement1.Stop();
 
         }
 
@@ -50,6 +53,12 @@ namespace WpfApp1
         private void channel_1(object sender, RoutedEventArgs e)
         {
             r.Channel = 1;
+            if (r.On == true)
+            {
+                string filepath = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\song.mp3";
+                mediaElement1.Source = new Uri(filepath);
+                mediaElement1.Play();
+            }
             RadioOff.Text = $"{r.Play()}";
         }
 
@@ -57,6 +66,12 @@ namespace WpfApp1
         {
             r.Channel = 2;
             RadioOff.Text = $"{r.Play()}";
+            if (r.On == true)
+            {
+                string filepath = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\song.mp3";
+                mediaElement1.Source = new Uri(filepath);
+                mediaElement1.Play();
+            }
 
 
         }
@@ -65,28 +80,44 @@ namespace WpfApp1
         {
             r.Channel = 3;
             RadioOff.Text = $"{r.Play()}";
+            if (r.On == true)
+            {
+                string filepath = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\song.mp3";
+                mediaElement1.Source = new Uri(filepath);
+                mediaElement1.Play();
+            }
         }
 
         private void channel_4(object sender, RoutedEventArgs e)
         {
+            if (r.On == true)
+             {
+                string filepath = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\song.mp3";
+                  mediaElement1.Source = new Uri(filepath);
+                    mediaElement1.Play();
+            }
+            
             r.Channel = 4;
+          
             RadioOff.Text = $"{r.Play()}";
+            
         }
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
             r.Write();
-             
+
         }
 
-        
 
-       
+
+
 
         private void Volume_Up(object sender, RoutedEventArgs e)
         {
 
-           r.Volume += 1;
+            r.Volume += 1;
             Volume.Text = $"{r.Volume}";
+            
         }
 
         private void Volume_down(object sender, RoutedEventArgs e)
@@ -95,7 +126,7 @@ namespace WpfApp1
             r.Volume -= 1;
             Volume.Text = $"{r.Volume}";
         }
-
-        
+       
+       
     }
 }
