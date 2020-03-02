@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\WpfApp1\\WpfApp1.csproj": {}
+    "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\WpfApp1\\WpfApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj": {
+    "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj",
+        "projectUniqueName": "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj",
         "projectName": "ClassesApp",
-        "projectPath": "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj",
-        "packagesPath": "C:\\Users\\Jasey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\obj\\",
+        "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj",
+        "packagesPath": "C:\\Users\\TECH-W96birm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jasey\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\TECH-W96birm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -66,22 +65,21 @@
         }
       }
     },
-    "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\WpfApp1\\WpfApp1.csproj": {
+    "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\WpfApp1\\WpfApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\WpfApp1\\WpfApp1.csproj",
+        "projectUniqueName": "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\WpfApp1\\WpfApp1.csproj",
         "projectName": "WpfApp1",
-        "projectPath": "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\WpfApp1\\WpfApp1.csproj",
-        "packagesPath": "C:\\Users\\Jasey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\WpfApp1\\obj\\",
+        "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\WpfApp1\\WpfApp1.csproj",
+        "packagesPath": "C:\\Users\\TECH-W96birm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\WpfApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jasey\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\TECH-W96birm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -93,8 +91,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj": {
-                "projectPath": "C:\\Users\\Jasey\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj"
+              "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj": {
+                "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\RadioApp\\ClassesExercises\\ClassesApp\\ClassesApp.csproj"
               }
             }
           }

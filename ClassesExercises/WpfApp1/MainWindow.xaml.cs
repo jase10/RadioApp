@@ -55,11 +55,12 @@ namespace WpfApp1
             r.Channel = 1;
             if (r.On == true)
             {
-                string filepath = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\song.mp3";
+                string filepath = @"C:\Users\TECH-W96birm\Documents\RadioApp\ClassesExercises\WpfApp1\song.mp3";
                 mediaElement1.Source = new Uri(filepath);
                 mediaElement1.Play();
             }
             RadioOff.Text = $"{r.Play()}";
+          
         }
 
         private void channel_2(object sender, RoutedEventArgs e)
@@ -68,7 +69,7 @@ namespace WpfApp1
             RadioOff.Text = $"{r.Play()}";
             if (r.On == true)
             {
-                string filepath = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\song.mp3";
+                string filepath = @"http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio2_mf_p";
                 mediaElement1.Source = new Uri(filepath);
                 mediaElement1.Play();
             }
@@ -82,7 +83,7 @@ namespace WpfApp1
             RadioOff.Text = $"{r.Play()}";
             if (r.On == true)
             {
-                string filepath = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\song.mp3";
+                string filepath = @"http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio1_mf_p";
                 mediaElement1.Source = new Uri(filepath);
                 mediaElement1.Play();
             }
@@ -92,7 +93,7 @@ namespace WpfApp1
         {
             if (r.On == true)
              {
-                string filepath = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\song.mp3";
+                string filepath = @"C:\Users\TECH-W96birm\Documents\RadioApp\ClassesExercises\WpfApp1\speak.mp3";
                   mediaElement1.Source = new Uri(filepath);
                     mediaElement1.Play();
             }

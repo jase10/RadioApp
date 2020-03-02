@@ -10,7 +10,7 @@ namespace ClassesApp
         private int _channel = 1;
         private bool _on = false;
         private int _volume = 0;
-        string path = @"C:\Users\Jasey\Documents\RadioApp\ClassesExercises\WpfApp1\status.json";
+        string path = @"C:\Users\TECH-W96birm\Documents\RadioApp\ClassesExercises\WpfApp1\status.json";
 
       public bool On 
         {
@@ -64,15 +64,15 @@ namespace ClassesApp
             }
         }
 
-        public int Volume 
+        public int Volume
         {
-            get { return _volume;  }
-            set { if (value >= 0 && value <= 30 && _on == true) 
-                { 
-                    _volume = value; 
+            get { return _volume; }
+            set { if (value >= 0 && value <= 30 && _on == true)
+                {
+                    _volume = value;
                 }
             }
-        }
+            } 
 
 
         public void TurnOn()
@@ -82,7 +82,7 @@ namespace ClassesApp
             
         }
 
-       
+      
 
         public string Play()
         {
